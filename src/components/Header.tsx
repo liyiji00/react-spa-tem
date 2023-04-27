@@ -1,5 +1,5 @@
 import { MdiGithub, MdiTwitter, MaterialSymbolsHome } from './Icons'
-import BtnDarkToogle from './BtnDarkToogle'
+import BtnDark from './BtnDark'
 
 
 export default () => {
@@ -34,10 +34,9 @@ export default () => {
 
         <a
           className="icon-btn"
-          href="https://github.com/llx-00/react-spa-template"
           title={"Dark Mode"}
         >
-          <BtnDarkToogle />
+          <BtnDark />
         </a>
     </div>
     </nav>
