@@ -2,9 +2,9 @@
 
 - 🚧 [Components auto importing](./src/components)
 
-- 🚧 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+- ✅ [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
-- 🚧 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- ✅ Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 - ✅ TypeScript, of course
 
@@ -19,14 +19,13 @@
 
 ### UI Frameworks
 
-- 🚧 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
 ### Icons
 
-- 🚧 [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- 🚧 [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
+- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
-### Plugins
 
 
 ## Try it now!

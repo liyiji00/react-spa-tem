@@ -9,6 +9,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@iconify-json/carbon':
+    specifier: ^1.1.16
+    version: 1.1.16
   '@types/react':
     specifier: ^18.0.28
     version: 18.0.28
@@ -470,6 +473,12 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@iconify-json/carbon@1.1.16:
+    resolution: {integrity: sha512-AD8bcnRSGA0WfcGEass2FbA0sagrUzrpFx5WchuDy3uf7yKBWumdypdQK121DH321fQDl5+zZQ26T6gC9knwUQ==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
