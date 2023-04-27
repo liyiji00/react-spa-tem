@@ -5,7 +5,7 @@ import BtnDark from './BtnDark'
 export default () => {
 
   return (
-    <nav className="text-8 flex items-center mb-4 text-gray-700 dark:text-gray-200">
+    <nav className="flex items-center mb-4 text-6 text-gray-700 dark:text-gray-200">
       <a
         className="icon-btn"
         href="/"
