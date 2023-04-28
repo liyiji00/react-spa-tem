@@ -1,4 +1,4 @@
-import BtnDark from './BtnDark'
+import BtnDark from '~/components/BtnDark'
 
 
 export default () => {

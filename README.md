@@ -1,7 +1,4 @@
 ## Features
-
-- 🚧 [Components auto importing](./src/components)
-
 - ✅ [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
 - ✅ Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)

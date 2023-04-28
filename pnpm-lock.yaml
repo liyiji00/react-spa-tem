@@ -12,6 +12,9 @@ devDependencies:
   '@iconify-json/carbon':
     specifier: ^1.1.16
     version: 1.1.16
+  '@types/node':
+    specifier: ^18.14.4
+    version: 18.14.4
   '@types/react':
     specifier: ^18.0.28
     version: 18.0.28
@@ -32,7 +35,7 @@ devDependencies:
     version: 0.51.4(postcss@8.4.21)(vite@4.2.0)
   vite:
     specifier: ^4.2.0
-    version: 4.2.0(sass@1.62.1)
+    version: 4.2.0(@types/node@18.14.4)(sass@1.62.1)
 
 packages:
 
@@ -577,6 +580,10 @@ packages:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
+  /@types/node@18.14.4:
+    resolution: {integrity: sha512-VhCw7I7qO2X49+jaKcAUwi3rR+hbxT5VcYF493+Z5kMLI0DL568b7JI4IDJaxWFH0D/xwmGJNoXisyX+w7GH/g==}
+    dev: true
+
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
@@ -783,7 +790,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.30.0
-      vite: 4.2.0(sass@1.62.1)
+      vite: 4.2.0(@types/node@18.14.4)(sass@1.62.1)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -799,7 +806,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.2.0(sass@1.62.1)
+      vite: 4.2.0(@types/node@18.14.4)(sass@1.62.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1542,7 +1549,7 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite@4.2.0(sass@1.62.1):
+  /vite@4.2.0(@types/node@18.14.4)(sass@1.62.1):
     resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -1567,6 +1574,7 @@ packages:
       terser:
         optional: true
     dependencies:
+      '@types/node': 18.14.4
       esbuild: 0.17.16
       postcss: 8.4.21
       resolve: 1.22.3
