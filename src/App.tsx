@@ -3,7 +3,7 @@ import viteLogo from '/vite.svg'
 
 import Header from './components/Header'
 
-import './App.css'
+import './App.scss'
 
 
 export default () => {
