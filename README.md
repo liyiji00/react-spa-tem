@@ -32,7 +32,7 @@
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit llx-00/react-spa-template my-react-app
+npx degit llx-00/react-spa-tem my-react-app
 cd my-react-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
