@@ -1,4 +1,5 @@
-import useDark from '../hooks/dark'
+import useDark from '~/hooks/dark'
+
 
 export default () => {
   const { isDark, toogleDark } = useDark()
@@ -7,7 +8,7 @@ export default () => {
     <a
       className="icon-btn i-carbon-sun dark:i-carbon-moon"
       title={isDark ? 'Dark mode' : 'Light mode'}
-      onClick={e => {e.preventDefault; toogleDark()}}
+      onClick={e => { e.preventDefault; toogleDark() }}
     />
   )
 }
