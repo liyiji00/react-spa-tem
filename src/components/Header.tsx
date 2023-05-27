@@ -14,12 +14,12 @@ export default () => {
       <div className="flex items-center gap-2">
         <a
           className="icon-btn i-carbon-logo-github"
-          href="https://github.com/llx-00/react-spa-template"
+          href="https://github.com/llx-00/react-spa-tem"
           target="_blank"
-          title="Github"
+          title="Goto Github"
         />
         <BtnDark />
-    </div>
+      </div>
     </nav>
   )
 }
