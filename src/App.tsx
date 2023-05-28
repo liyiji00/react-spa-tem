@@ -9,7 +9,7 @@ import './App.scss'
 export default () => {
 
   return (
-    <div className='App font-sans text-left text-gray-700 dark:text-gray-200'>
+    <div className='App text-left text-gray-700 dark:text-gray-200'>
       <Header />
       <div>
         <div className='text-center'>
