@@ -5,7 +5,7 @@ export default () => {
   const _el = document.querySelector('html')
   const [isDark, setDark] = useState([...(_el?.classList || [])].includes('dark'))
 
-  function toogleDark()  {
+  function toggleDark() {
     setDark(() => {
       if (_el) {
         if (isDark) _el.classList.remove('dark')
@@ -20,5 +20,5 @@ export default () => {
     })
   }
 
-  return { isDark, toogleDark }
+  return { isDark, toggleDark }
 }
