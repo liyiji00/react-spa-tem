@@ -1,5 +1,4 @@
 import BtnDark from '~/components/BtnDark'
-import BtnLang from './BtnLang'
 
 
 export default () => {
@@ -13,7 +12,6 @@ export default () => {
       />
       <div className="flex-1" />
       <div className="flex items-center gap-2">
-        <BtnLang />
         <a
           className="icon-btn i-carbon-logo-github"
           href="https://github.com/llx-00/react-spa-tem"
