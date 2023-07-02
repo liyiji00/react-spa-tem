@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 
-export function useDark() {
+export default function () {
   const [isDark, setDark] = useState(false)
   const _HTML = document.children[0]
 
