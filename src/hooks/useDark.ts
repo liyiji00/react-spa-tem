@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 
-export default function () {
+function useDark() {
   const [isDark, setDark] = useState<boolean>()
   const _HTML = document.children[0]
 
@@ -47,3 +47,7 @@ export default function () {
 
   return { isDark, toggleDark }
 }
+
+// const { isDark, toggleDark } = useDark()
+
+export { useDark }
