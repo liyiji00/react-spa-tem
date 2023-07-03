@@ -2,16 +2,18 @@ import { useEffect, useState } from "react"
 
 
 export default function () {
-  const [isDark, setDark] = useState(false)
+  const [isDark, setDark] = useState<boolean>()
   const _HTML = document.children[0]
 
   useEffect(() => {
-    if (isDark) {
-      _HTML.classList.add('dark')
-      localStorage.setItem('theme', 'dark')
-    } else {
-      _HTML.classList.remove('dark')
-      localStorage.removeItem('theme')
+    if (isDark !== undefined) {
+      if (isDark) {
+        _HTML.classList.add('dark')
+        localStorage.setItem('theme', 'dark')
+      } else {
+        _HTML.classList.remove('dark')
+        localStorage.removeItem('theme')
+      }
     }
   }, [isDark])
 
@@ -26,9 +28,9 @@ export default function () {
 
     if (_mediaQuery.matches) {
       if (_localTheme === null) {
-        setDark(true)
+        setDark(false)
       } else {
-        setDark(_localTheme === 'light' ? false : true)
+        setDark(_localTheme === 'dark')
       }
     } else {
       setDark(_localTheme === 'dark')
