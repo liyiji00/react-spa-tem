@@ -7,18 +7,12 @@ export default () => {
   return (
     <nav className="flex p-4 text-6">
       <a
-        className="icon-btn i-lucide-atom"
+        className="icon-btn i-lucide-home"
         href="/"
         title="Back home"
       />
       <div className="flex-1" />
       <div className="flex gap-6">
-        <a
-          className="icon-btn i-lucide-twitter"
-          href="https://twitter.com/lilongxiang2000"
-          target="_blank"
-          title="Goto Github"
-        />
         <a
           className="icon-btn i-lucide-github"
           href="https://github.com/llx-00/react-spa-tem"
