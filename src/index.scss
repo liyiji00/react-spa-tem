@@ -1,13 +1,18 @@
 :root {
-  font-family: system-ui, -apple-system, Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  --c-bg: #fff;
+  --c-bg-nprogress: #4ade80;
+}
+
+* {
+  transition: background-color 0.4s ease-in-out;
 }
 
 html {
-  background-color: #fff;
+  background-color: var(--c-bg);
 
   &.dark {
-    background-color: #111;
+    --c-bg: #000;
+    // --c-bg-nprogress: #fff;
   }
 }
 
@@ -17,15 +22,37 @@ body {
 
 a {
   color: inherit;
-  opacity: 0.8;
   text-decoration: none;
-
-  &:hover {
-    opacity: 1;
-  }
 }
 
-#root {
-  width: 100vw;
-  min-width: 300px;
+h1 {
+  font-size: 1.8rem;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 1.2rem;
+}
+
+pre,
+code {
+  font-family: "JetBrains Mono", monospace;
+}
+
+#app {
+  width: 100%;
+  min-width: 370px;
+
+  overflow-x: hidden;
 }

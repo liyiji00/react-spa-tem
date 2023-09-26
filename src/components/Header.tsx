@@ -1,31 +1,45 @@
-import { useDark } from '~/hooks'
-
+import { useDark } from "~/hooks"
+import { classNames } from "~/utils"
 
 export default () => {
   const { isDark, toggleDark } = useDark()
 
   return (
-    <nav className="flex p-4 text-6">
+    <nav className="flex justify-end items-start p4 text-base">
       <a
-        className="icon-btn i-lucide-home"
+        className="select-none outline-none absolute left-4 "
         href="/"
         title="Back home"
-      />
-      <div className="flex-1" />
-      <div className="flex gap-6">
+      >
+        <img
+          src="/logo-dark.svg"
+          className={classNames("w6", isDark ? null : "hidden")}
+          alt="logo"
+        />
+        <img
+          src="/logo.svg"
+          className={classNames("w6", isDark ? "hidden" : null)}
+          alt="logo"
+        />
+      </a>
+
+      <div className="flex gap6 items-center">
         <a
-          className="icon-btn i-lucide-github"
+          className="link i-lucide-github"
           href="https://github.com/llx-00/react-spa-tem"
           target="_blank"
           title="Goto Github"
         />
+
         <a
-          className="icon-btn i-lucide-sun dark:i-lucide-moon"
-          title={isDark ? 'Dark mode' : 'Light mode'}
-          onClick={e => { e.preventDefault; toggleDark() }}
+          className="link i-lucide-sun dark:i-lucide-moon"
+          title={isDark ? "Dark mode" : "Light mode"}
+          onClick={e => {
+            e.preventDefault()
+            toggleDark()
+          }}
         />
       </div>
     </nav>
   )
 }
-
