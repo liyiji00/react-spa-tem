@@ -14,23 +14,23 @@ dependencies:
 
 devDependencies:
   '@iconify-json/carbon':
-    specifier: ^1.1.21
-    version: 1.1.21
+    specifier: ^1.1.26
+    version: 1.1.26
   '@iconify-json/lucide':
-    specifier: ^1.1.141
-    version: 1.1.141
+    specifier: ^1.1.146
+    version: 1.1.146
   '@types/node':
-    specifier: ^18.18.9
-    version: 18.18.9
+    specifier: ^18.19.3
+    version: 18.19.3
   '@types/react':
-    specifier: ^18.2.37
-    version: 18.2.37
+    specifier: ^18.2.45
+    version: 18.2.45
   '@types/react-dom':
-    specifier: ^18.2.15
-    version: 18.2.15
+    specifier: ^18.2.18
+    version: 18.2.18
   '@vitejs/plugin-react':
     specifier: ^3.1.0
-    version: 3.1.0(vite@4.5.0)
+    version: 3.1.0(vite@4.5.1)
   sass:
     specifier: ^1.69.5
     version: 1.69.5
@@ -39,10 +39,10 @@ devDependencies:
     version: 4.9.5
   unocss:
     specifier: ^0.51.13
-    version: 0.51.13(postcss@8.4.30)(vite@4.5.0)
+    version: 0.51.13(postcss@8.4.30)(vite@4.5.1)
   vite:
-    specifier: ^4.5.0
-    version: 4.5.0(@types/node@18.18.9)(sass@1.69.5)
+    specifier: ^4.5.1
+    version: 4.5.1(@types/node@18.19.3)(sass@1.69.5)
 
 packages:
 
@@ -487,14 +487,14 @@ packages:
     dev: true
     optional: true
 
-  /@iconify-json/carbon@1.1.21:
-    resolution: {integrity: sha512-bK2cMVM4noBU+FGlay433flpXLRzQu0ED095iAnoO6ka3yb4uz0lvb8acpN5gthyGLJ89C4HpfIbQZLQnMKQww==}
+  /@iconify-json/carbon@1.1.26:
+    resolution: {integrity: sha512-0y6JstqPCsjEiUuyTTdHE7Wd9gGlxzH2dEfvKUJe5E741qRgLlIipVdBoCkOtbyAT92WEcU8BNfDaC585OCC8w==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/lucide@1.1.141:
-    resolution: {integrity: sha512-sqVopjdB7m8JOnpZilQbLCM1sOq3snE2OEP2BnP1EIefAd6uhzBBrV7Zy6hkkvdHVKYmX4aVzOHF6enDFO7kHA==}
+  /@iconify-json/lucide@1.1.146:
+    resolution: {integrity: sha512-x7C/Qfe0EZrfwXCfONNwnEofAQyHbGZsLZKGs38u4Nf1scdfMr3dwQ7fkTftEYaSmeBOlEJis7DGstlyJ0N+0Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -593,8 +593,8 @@ packages:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
-  /@types/node@18.18.9:
-    resolution: {integrity: sha512-0f5klcuImLnG4Qreu9hPj/rEfFq6YRc5n2mAjSsH+ec/mJL+3voBH0+8T7o8RpFjH7ovc+TRsL/c7OYIQsPTfQ==}
+  /@types/node@18.19.3:
+    resolution: {integrity: sha512-k5fggr14DwAytoA/t8rPrIz++lXK7/DqckthCmoZOKNsEbJkId4Z//BqgApXBUGrGddrigYa1oqheo/7YmW4rg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -603,14 +603,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom@18.2.15:
-    resolution: {integrity: sha512-HWMdW+7r7MR5+PZqJF6YFNSCtjz1T0dsvo/f1BV6HkV+6erD/nA7wd9NM00KVG83zf2nJ7uATPO9ttdIPvi3gg==}
+  /@types/react-dom@18.2.18:
+    resolution: {integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==}
     dependencies:
-      '@types/react': 18.2.37
+      '@types/react': 18.2.45
     dev: true
 
-  /@types/react@18.2.37:
-    resolution: {integrity: sha512-RGAYMi2bhRgEXT3f4B92WTohopH6bIXw05FuGlmJEnv/omEn190+QYEIYxIAuIBdKgboYYdVved2p1AxZVQnaw==}
+  /@types/react@18.2.45:
+    resolution: {integrity: sha512-TtAxCNrlrBp8GoeEp1npd5g+d/OejJHFxS3OWmrPBMFaVQMSN0OFySozJio5BHxTuTeug00AVXVAjfDSfk+lUg==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -621,12 +621,12 @@ packages:
     resolution: {integrity: sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==}
     dev: true
 
-  /@unocss/astro@0.51.13(vite@4.5.0):
+  /@unocss/astro@0.51.13(vite@4.5.1):
     resolution: {integrity: sha512-Dul0ZJNwseGBxngBMfghfTsf0quf4HcQcqJuIDzA1T+ueavpwf4QScwbDuS0BqFO4ZiIVSItA7f6eLe31PHUmw==}
     dependencies:
       '@unocss/core': 0.51.13
       '@unocss/reset': 0.51.13
-      '@unocss/vite': 0.51.13(vite@4.5.0)
+      '@unocss/vite': 0.51.13(vite@4.5.1)
     transitivePeerDependencies:
       - rollup
       - vite
@@ -790,7 +790,7 @@ packages:
       '@unocss/core': 0.51.13
     dev: true
 
-  /@unocss/vite@0.51.13(vite@4.5.0):
+  /@unocss/vite@0.51.13(vite@4.5.1):
     resolution: {integrity: sha512-WwyaPnu1XfRiFy4uxXwBuWaL7J1Rcaetsw5lJQUIUdSBTblsd6W7sW+MYTsLfAlA9FUxWDK4ESdI51Xgq4glxw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0
@@ -805,12 +805,12 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.30.0
-      vite: 4.5.0(@types/node@18.18.9)(sass@1.69.5)
+      vite: 4.5.1(@types/node@18.19.3)(sass@1.69.5)
     transitivePeerDependencies:
       - rollup
     dev: true
 
-  /@vitejs/plugin-react@3.1.0(vite@4.5.0):
+  /@vitejs/plugin-react@3.1.0(vite@4.5.1):
     resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -821,7 +821,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.4)
       magic-string: 0.27.0
       react-refresh: 0.14.0
-      vite: 4.5.0(@types/node@18.18.9)(sass@1.69.5)
+      vite: 4.5.1(@types/node@18.19.3)(sass@1.69.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1486,7 +1486,7 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /unocss@0.51.13(postcss@8.4.30)(vite@4.5.0):
+  /unocss@0.51.13(postcss@8.4.30)(vite@4.5.1):
     resolution: {integrity: sha512-EAhuQ97D7E+EsTdlCL+xoWEsvz46Se9ZAtHhJ+1W+DzMky9qrDLRyR8Caf2TPbz8dw/z0qYhoPr6/aJARG4r0g==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1495,7 +1495,7 @@ packages:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.51.13(vite@4.5.0)
+      '@unocss/astro': 0.51.13(vite@4.5.1)
       '@unocss/cli': 0.51.13
       '@unocss/core': 0.51.13
       '@unocss/extractor-arbitrary-variants': 0.51.13
@@ -1514,7 +1514,7 @@ packages:
       '@unocss/transformer-compile-class': 0.51.13
       '@unocss/transformer-directives': 0.51.13
       '@unocss/transformer-variant-group': 0.51.13
-      '@unocss/vite': 0.51.13(vite@4.5.0)
+      '@unocss/vite': 0.51.13(vite@4.5.1)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -1533,8 +1533,8 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite@4.5.0(@types/node@18.18.9)(sass@1.69.5):
-    resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
+  /vite@4.5.1(@types/node@18.19.3)(sass@1.69.5):
+    resolution: {integrity: sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -1561,7 +1561,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.18.9
+      '@types/node': 18.19.3
       esbuild: 0.18.20
       postcss: 8.4.30
       rollup: 3.29.3
