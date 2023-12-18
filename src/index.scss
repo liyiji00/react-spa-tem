@@ -1,10 +1,5 @@
 :root {
   --c-bg: #fff;
-  --c-bg-nprogress: #4ade80;
-}
-
-* {
-  transition: background-color 0.4s ease-in-out;
 }
 
 html {
@@ -12,7 +7,6 @@ html {
 
   &.dark {
     --c-bg: #000;
-    // --c-bg-nprogress: #fff;
   }
 }
 
