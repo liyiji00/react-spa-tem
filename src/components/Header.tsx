@@ -13,12 +13,12 @@ export default () => {
       >
         <img
           src="/logo-dark.svg"
-          className={classNames("w6", isDark ? null : "hidden")}
+          className={classNames("w8", isDark ? null : "hidden")}
           alt="logo"
         />
         <img
           src="/logo.svg"
-          className={classNames("w6", isDark ? "hidden" : null)}
+          className={classNames("w8", isDark ? "hidden" : null)}
           alt="logo"
         />
       </a>
